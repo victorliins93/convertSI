@@ -8,7 +8,7 @@ Webservice para conversão de unidades para SI
 * Abra o prompt de comando
 * Acesse o diretorio do projeto pelo cmd
 * Rode o comando: docker build -t convert:1.0 . (Criará uma imagem docker)
-* docker run -p <porta>:8089 convert:1.0 (Substitua <porta> pela porta que você quer reproduzir a aplicação na sua máquina.
+* docker run -p 'porta':8089 convert:1.0 (Substitua 'porta' pela porta que você quer reproduzir a aplicação na sua máquina.
 
 ## Desenvolvido com
 Mencionar os frameworks e ferramentes utilizados para se desenvolver essa aplicação. Como por exemplo:
