@@ -3,17 +3,14 @@ package com.example.demo.service.convert;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
-import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.SpyBean;
-import org.springframework.test.context.ActiveProfiles;
-import org.springframework.test.context.junit4.SpringRunner;
 
+import com.justa.ConvertApplication;
 import com.justa.service.convert.Convert;
 
-@RunWith(SpringRunner.class)
-@SpringBootTest(classes = Convert.class)
-@ActiveProfiles("test")
+
+@SpringBootTest(classes = ConvertApplication.class)
 public class ConvertTest {
     
     @SpyBean
